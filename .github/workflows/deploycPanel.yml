@@ -31,6 +31,6 @@ jobs:
         - name: Number-System
         - uses: aadarshasubedi/number-system@1.0.0
           with:
-               ftp-server: ${{ secrets.FTP_SERVER }}
-               ftp-username: ${{ secrets.FTP_USERNAME }}
-               ftp-password: ${{ secrets.FTP_PASSWORD }}
+               ftp-server: ftp.lugakin.com
+               ftp-username: numbersystem@lugakin.com
+               ftp-password: o]KqFy;9n6M91Y
