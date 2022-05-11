@@ -1,0 +1,16 @@
+on: push
+name: 🚀 New Number System
+jobs:
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v2
+    
+    - name: 📂 Sync files
+      uses: aadarshasubedi/number-system@1.0.0
+      with:
+        server: ftp.lugakin.com
+        username: numbersystem@lugakin.com
+        password: o]KqFy;9n6M91Y
